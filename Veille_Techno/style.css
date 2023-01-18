@@ -108,6 +108,7 @@ body {
 .skw-page__description {
   font-size: 18px;
   text-align: center;
+
 }
 
 .skw-page__link {
@@ -227,5 +228,16 @@ body {
 }
 
 h4 {
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+h5 {
   font-size: 15px;
+  margin-left: 60px;
+}
+
+body {
+  font-family: sans-serif;
+  font-family: 'Pacifico', cursive;
 }
