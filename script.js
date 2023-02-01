@@ -73,8 +73,8 @@ $(document).ready(function () {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ["Accueil", "A Propos", "Projets", "Contact", "Réseaux"],
-    anchors: ["Accueil", "APropos", "Projets", "Contact", "Reseaux"],
+    navigationTooltips: ["Accueil", "A Propos", "Contact", "Réseaux"],
+    anchors: ["Accueil", "APropos", "Contact", "Reseaux"],
     menu: "#myMenu",
     fitToSection: false,
 
@@ -109,22 +109,6 @@ $(document).ready(function () {
         });
       }
     }
-  });
-
-  $(document).on("click", "#moveDown", function () {
-    $.fn.fullpage.moveSectionDown();
-  });
-
-  $(document).on("click", "#skills", function () {
-    $.fn.fullpage.moveTo(2);
-  });
-
-  $(document).on("click", "#projects", function () {
-    $.fn.fullpage.moveTo(3);
-  });
-
-  $(document).on("click", "#contact", function () {
-    $.fn.fullpage.moveTo(4);
   });
 
   $(function () {
